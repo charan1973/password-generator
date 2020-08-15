@@ -1,7 +1,7 @@
-##What is this?
+## What is this?
 A simple password generator using react.
 
-##How to use it?
+## How to use it?
 Step 1: Clone or download the project to your local machine(preferred way is cloning).
 Type this to clone:
 `git clone https://github.com/charan1973/password-generator.git`
