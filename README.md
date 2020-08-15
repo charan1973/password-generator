@@ -1,3 +1,5 @@
+![Screenshot](screenshot.png)
+
 ## What is this?
 A simple password generator using react.
 
