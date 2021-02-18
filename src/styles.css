@@ -1,76 +1,87 @@
-body{
-    background-color: #fabea7;
-    font-family: 'Alata', sans-serif;
+body {
+  background: #da4453; 
+  background: -webkit-linear-gradient(
+    to right,
+    #89216b,
+    #da4453
+  ); 
+  background: linear-gradient(
+    to right,
+    #89216b,
+    #da4453
+  ); 
+
+  font-family: "Alata", sans-serif;
 }
 
-.card{
-    margin-top: 10%;
-    width: 500px;
-    height: 500px;
-    background-color: #9cada4;
-    border-radius: 10px;
-    margin-left: auto;
-    margin-right: auto;
+.card {
+  margin-top: 10%;
+  width: 500px;
+  height: 500px;
+  background-color: #f86e48a2;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#password-display{
-    width: 470px;
-    height: 50px;
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-    outline: none;
-    border: none;
-    border-radius: 5px;
-    text-align: center;
-    font-weight: bolder;
-    font-size: xx-large;
+#password-display {
+  width: 470px;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: xx-large;
 }
 
-#password-display{
-    width: 470px;
-    height: 50px;
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-    outline: none;
-    border: none;
-    border-radius: 5px;
-    text-align: center;
-    font-weight: bolder;
-    font-size: xx-large;
-    caret-color: transparent;
+#password-display {
+  width: 470px;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: xx-large;
+  caret-color: transparent;
 }
 
-.char-num{
-    /* width: 470px;
+.char-num {
+  /* width: 470px;
     height: 50px; */
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-    outline: none;
-    border: none;
-    border-radius: 5px;
-    text-align: center;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
 }
 
-div[class="card"] div{
-    text-align: center;
-    font-weight: 500;
+div[class="card"] div {
+  text-align: center;
+  font-weight: 500;
 }
 
-.card button{
-    display: inline-block;
-    margin: 10px 180px;
-    height: 40px;
-    border: none;
-    border-radius: 4px;
-    outline: none;
-    background-color: #c26565;
-    color: white;
-    font-weight: bold;
+.card button {
+  display: inline-block;
+  margin: 10px 180px;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  background-color: #c26565;
+  color: white;
+  font-weight: bold;
 }
 
-.card button:hover{
-    background-color: #d88989;
+.card button:hover {
+  background-color: #d88989;
 }

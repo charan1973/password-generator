@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 function App() {
   const [password, setPassword] = useState("");
-  const [numberOfCharacters, setNumberOfCharacters] = useState("");
+  const [numberOfCharacters, setNumberOfCharacters] = useState(12);
   const [copied, setCopied] = useState(1);
   const upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   const lower = "abcdefghijklmnopqrstuvwxyz";
@@ -22,6 +22,10 @@ function App() {
     }
     setPassword(passwordArray.join(""));
   };
+
+  useEffect(() => {
+    generatePassword()
+  }, [])
 
   const handleChange = (event) => {
     setNumberOfCharacters(event.target.value);
