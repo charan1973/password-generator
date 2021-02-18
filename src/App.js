@@ -24,7 +24,7 @@ function App() {
   };
 
   useEffect(() => {
-    generatePassword()
+    generatePassword() // eslint-disable-next-line
   }, [])
 
   const handleChange = (event) => {
